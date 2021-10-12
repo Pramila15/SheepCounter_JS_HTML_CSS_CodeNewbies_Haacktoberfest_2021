@@ -1,53 +1,22 @@
-
-<!-- HTML ISSUE 1 START -->
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" type="text/css" href="styles.css">  <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
- <script src="https://kit.fontawesome.com/184c130682.js" crossorigin="anonymous"></script>
- <title> Sheep Counter </title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
+  <link rel="stylesheet" href="./style.scss" >
 </head>
+
 <body>
+  <div class="div">
+    <h1>Sheep Counter</h1>
+  </div>
+  <h1 id="counter">0</h1>
+  <div id="button__wrapper">
+    <button id="button__increase">COUNT</button>
+    <button id="button__decrease">DECREASE</button>
+    <button id="button__save">SAVE</button>
+   
+  </div>
+  <h1>Logs</h1>
+  <ul id="logs">
+  </ul>
+</body>
 
-
-<!-- HTML ISSUE 1 END  -->
-
-
-
-
-<!-- HTML ISSUE 2 START  -->
-<header><h1>Sheep Counter</h1></header>
-    <div class="container">
-      <h2 id="count-el">0</h2>
-      <div class="button-group">
-        <button id="increment-btn" class="btn" onclick="increment()">
-          Count
-        </button>
-        <button id="save-btn" class="btn" onclick="save()">Save</button>
-      </div>
-      <div class="log-results">
-        <p class="log">-- Log --</p>
-        <p class="logResult"></p>
-        <p class="logResult"></p>
-        <p class="logResult"></p>
-        <p class="logResult"></p>
-      </div>
-    </div>
- <!-- container -->
- 
-<!-- HTML ISSUE 2 END  -->
-
-
-<!-- HTML ISSUE 3 START  -->
-    
-<footer >
-<ul class="footer-container"> <li> 
-<a href="mailto:carolina.u.oviedo@gmail.com"> <i class="far fa-envelope fa-lg"></i> </a>
-  <li> <a href="https://github.com/caro-oviedo"> <i class="fab fa-github fa-lag"></i> </a></li>
-        <li> <a href="https://twitter.com/Caro_Oviedo_"> <i class="fab fa-twitter-square fa-lag"></i>  </a></li></ul>
-</footer><script src="app.js"></script></body>
-</html>
+<script src="apps.js"></script>
